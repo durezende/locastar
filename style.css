@@ -1,0 +1,133 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(./img/background.jpg);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    background-image: url(./img/background.jpg);
+    margin: 0;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-image: url(./img/Background2.jpg);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .movie-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffbe0d;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-list li:hover{
+    background-color: #979494;
+  }
+
+  .cast-container:hover {
+    background-color: inherit;
+  } 
+
+
+
+  .cast-container li {
+    background-color: inherit;
+  } 
+
+  
+  .movie-title {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .movie-description {
+    color: #000000;
+  }
+
+  .audio {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    width: 435px;
+    height: 300px;
+  }
+
+  .movie h3 {
+    text-align: center;
+  }
+
+        
+  .movie {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .movie video {
+    width: 593px;
+    height: 400px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #ffbe0d;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  p{
+    font-size: 24px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .info-box{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-box p{
+    margin: 0px;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
